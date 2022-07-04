@@ -1,0 +1,115 @@
+.footer {
+  &__top {
+    background-color: #e72420;
+    color: #ffffff;
+  }
+
+  &__top-container {
+    width: 1366px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+  }
+
+  &__top-left {
+    width: 50%;
+    height: 248px;
+    border-right: 1px solid #ffffff;
+  }
+
+  &__top-right {
+    width: 50%;
+  }
+
+  &__top h1 {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #ffffff;
+    font-family: "Koz Go Pr6 N";
+    text-align: center;
+  }
+
+  &__top p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 30px;
+  }
+
+  &__mid {
+    background-color: #f1f1f1;
+    font-size: 1.8rem;
+    color: #333333;
+  }
+
+  &__mid-container {
+    width: 1366px;
+    height: 242px;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    margin: auto;
+    padding-top: 30px;
+  }
+
+  &__mid-left {
+    width: 50%;
+    padding-left: 20px;
+  }
+
+  &__mid-right {
+    width: 50%;
+    padding-left: 20px;
+  }
+
+  &__mid p {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  &__mid a {
+    color: #333333;
+  }
+
+  &__mid ul li {
+    list-style: none;
+  }
+
+  &__bottom {
+    width: 1366px;
+    height: 180px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  &__bottom-logo {
+    height: 30px;
+  }
+
+  // &__bottom-logo-sp-view{
+  //   display: none;
+  // }
+
+  // &__bottom-copyright{
+  //   display: none;
+  // }
+
+  &__bottom p {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+}
+
+.to-top{
+  position: fixed;
+  right: 50px;
+  bottom: 100px;
+  cursor: pointer;
+}
+
+

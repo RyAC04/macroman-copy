@@ -1,0 +1,29 @@
+@mixin buttons {
+  display: inline-block;
+  padding-top: 5px;
+  height: 52px;
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 500;  
+  border-radius: 26px;
+  border: 4px solid #e72420;
+  color: #e72420;  
+  background-color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+
+  img {
+    padding: 0;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    margin-right: 10px;
+  }
+
+  p{
+    padding-left: 30px;
+  }
+
+}
+

@@ -1,0 +1,134 @@
+.section {
+
+  &__title {
+    font-size: 4.2rem;
+    line-height: 48px;
+    color: #e72420;
+    font-weight: bold;
+    text-align: center;
+    padding: 70px 0;
+    
+    &--fw500{
+      font-weight: 500;
+      color: #e72420;
+    }
+  }
+
+  &__title-sp-view{
+    // display: none;
+  }
+
+  &__button{
+      
+
+    text-align: center;
+    position: relative;
+    letter-spacing: -2px;
+      
+    .btn {
+      @include buttons;
+      padding-left: 10px;
+    }
+  
+    .btn:hover {
+      @include hover-btn;
+    }   
+  }
+
+  &__button--border-black {
+    text-align: start;
+
+    .btn {
+      border-radius: 27px;
+      border: 4px solid #000000;
+      font-size: 2.4rem;
+      height: 54px;
+      width: 263px;
+
+      img {
+        position: absolute;
+        top: 10px;
+        left: 35px;
+        margin-right: 10px;
+      }
+    }
+
+    .btn:hover {
+
+      img {
+        filter: invert(100%) sepia(100%) saturate(3%) hue-rotate(251deg) brightness(150%) contrast(100%);
+      }
+    } 
+  }
+
+  &__button--width-241px {
+    .btn {
+      width: 241px;      
+    }
+  }
+
+  &__button--width-491px {
+    .btn {
+      width: 491px;
+    }
+
+    .btn img {
+      position: absolute;
+      top: 10px;
+      left: 30px;
+    }
+
+    .btn:hover {
+      img {
+        filter: invert(100%) sepia(100%) saturate(3%) hue-rotate(251deg) brightness(150%) contrast(100%);
+      }
+    } 
+  }
+
+  &__button--width-264px{
+    .btn {
+      width: 264px;
+    }
+  }
+
+  &__button--width-191px{
+    .btn {
+      width: 191px;
+    }
+  }
+
+  &__button--big{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+
+    .btn {
+      border: 4px solid #000000;
+      width: 380px;
+      height: 72px;
+      border-radius: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      p {
+        font-size: 2.8rem;
+        margin: 0;
+      }
+
+      img {
+        top: 15px;
+        left: 70px;
+      }
+    }
+
+    .btn:hover {
+      img {
+          filter: invert(100%) sepia(100%) saturate(3%) hue-rotate(251deg) brightness(150%) contrast(100%);
+      }
+    } 
+  }
+}
+
+
+
