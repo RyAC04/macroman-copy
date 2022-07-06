@@ -2,8 +2,8 @@
 .section-3 {
 
   &__container {
-    height: 600px;
-    width: 1366px;
+    min-height: 600px;
+    max-width: 1366px;
     margin: auto;
     text-align: center;
   }
@@ -24,7 +24,7 @@
     justify-content: center;
     margin: auto;
     align-items: center;
-    width: 979px;
+    max-width: 979px;
     height: 181px;
     background-color: #312927;
     margin-bottom: 40px;
