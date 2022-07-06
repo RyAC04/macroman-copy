@@ -1,4 +1,7 @@
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
+  body{
+    overflow-x: hidden;
+  }
 .section {
   &__button {
     .btn {
@@ -27,16 +30,7 @@
     
       }
 
-      // img:first-child{
-      //   display: none;
-      // }
-
     }
-
-    // .btn {
-    //   img:first-child {
-    //       display: none;
-    //     }}
 
     &--big .btn {
       width: 290px;
@@ -118,7 +112,7 @@
   }
 
   &__container {
-    max-width: 750px;
+    max-width: 1200px;
     padding-inline: 40px;
     margin: auto;
 
@@ -126,11 +120,13 @@
       // flex-direction: column;
       height: 886px;
       display: block;
+      width: 100%;
     }
 
     &--height-690px {
       // min-height: auto;
       padding-bottom: 50px;
+      max-width: 750px;
 
     }
 
@@ -143,12 +139,14 @@
       // min-height: 600px;
       text-align: center;
       padding-bottom: 50px;
+      max-width: 750px;
     }
 
     &--height-631px {
       // min-height: 631px;
       text-align: center;
       padding-bottom: 50px;    
+      max-width: 750px;
     }
   }
 }
@@ -394,7 +392,8 @@
     }
   
     &__text-sp-view {
-      max-width: 767px;
+      // max-width: 767px;
+      max-width: 100%;
       height: 160px;
       display: flex;
       justify-content: space-between;
@@ -646,11 +645,13 @@
   margin-inline: auto;
 
   &__container{
-    max-width: 750px;
+    // max-width: 750px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     // padding-inline: 40px;
     overflow: hidden;
+    justify-content: center;
     
   }
 
@@ -692,7 +693,7 @@
   }
 
   &__mid-container {
-    max-width: 750px;
+    max-width: 1200px;
     min-height: 786px;
     display: block;
     // padding: 0;
@@ -732,7 +733,7 @@
   }
 
   &__bottom {
-    max-width: 750px;
+    max-width: 1200px;
     height: 220px;
     margin-top: 0;
     // padding-inline: 40px;
